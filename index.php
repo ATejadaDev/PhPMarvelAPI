@@ -36,7 +36,7 @@ curl_close($ch);
         justify-content: center;
         text-align: center;
     }
-    hgroup {
+    hgroup, a {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -61,4 +61,10 @@ curl_close($ch);
         <p>Fecha de estreno: <?= $data["release_date"]; ?></p>
         <h4>La siguiente es: <?= $data["following_production"]["title"]; ?></h4>
     </hgroup>
+
+    <a href="https://github.com/ATejadaDev/PhPMarvelAPI/blob/main/index.php" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" 
+         width="300" height="300" alt="Github">
+    </a>
+
 </main>
